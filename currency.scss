@@ -1,0 +1,55 @@
+$bottom-color:#aaaaaa;
+*{
+    margin:0 auto;
+    padding:0 auto;
+}
+.navigation{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: $bottom-color;
+    padding-top: 10px;
+    div{
+        float: left;
+        width: 25%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        font-size: 25px;
+        flex-direction: column;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .wechat2{
+        color: green;
+    }
+}
+.topfoor{
+    position: fixed;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 10px;
+    height: 90px;
+    top: 0px;
+    background-color: $bottom-color;
+    .text{
+        float: left;
+        margin-left: 5px;
+    }
+    .img{
+        float: right;
+        padding-top: 10px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        .query{
+            margin-right: 50px ;
+        }
+        .more{
+            margin-right: 5px;
+        }
+    }
+}

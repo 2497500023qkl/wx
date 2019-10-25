@@ -1,0 +1,165 @@
+$bottom-color:#f7f7f7;
+*{
+    margin:0 auto;
+    padding:0 auto;
+}
+body{
+    background-color: #ececec; 
+}
+.chatblock{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: $bottom-color;
+    padding-top: 10px;
+    display: flex;
+    img{
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+    }
+    div{
+        flex-grow:1;
+        .inputbox{
+            width: 100%;
+            margin-top: 30px;
+            height: 55px;
+            font-size: 40px;
+        }
+    }
+}
+.topfoor{
+    position: fixed;
+    width: 100%;
+    font-size: 60px;
+    line-height:140px;
+    height: 160px;
+    top: 0px;
+    background-color: $bottom-color;
+    .arrow2{
+        float: left;
+        width: 80px;
+        margin-top: 70px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .more{
+        float: right;
+        width: 80px;
+        margin-top: 70px;
+        margin-right: 10px;
+    }
+    .text{
+        float: left;
+        margin-top:40px ;
+    }
+}
+.newsblock{
+    background-color: #ececec; 
+    margin-top: 80px;
+    display: flex;
+    flex-direction:column;
+    .date{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:rgb(173, 165, 165);
+    }
+    .news{
+        width: 100%;
+        margin-bottom: 10px;
+        .headportrait{
+            float: left;
+            margin-left: 40px;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .chatcontent{
+            max-width: calc(100%  -  240px);
+            padding-left: 20px;
+            position: relative;
+            margin-top: 5px;
+            .username{
+                margin-bottom: 15px;
+                font-size: 40px;
+            }
+            .information{
+                float: left;
+                width:auto;
+                padding-top: 10px;
+                border-radius:5px;
+                border: 1px solid #fff;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 5px;
+                background-color: #fff;
+                   font-size: 60px;
+                   word-break:break-all;
+            }
+            .location{
+                position: absolute;
+                top: 68px;
+                left: 0px;
+                width:0;
+                height:0;
+                border: 10px solid;
+                border-color:transparent #fff transparent transparent;
+            }
+        }
+    }
+    .news1{
+        width: 100%;
+        margin-bottom: 10px;
+        .headportrait{
+            float: right;
+            margin-right: 40px;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .chatcontent{
+            float: right;
+            max-width: calc(100%  -  240px);
+            padding-right: 20px;
+            position: relative;
+            margin-top: 5px;
+            min-width: 10px;
+            .username{
+                text-align: right;
+                margin-bottom: 5px;
+                width: 100%;
+                font-size: 40px;
+            }
+            .information{
+                display: inline-block;
+                border: 1px solid #fff;
+                padding-top: 10px;
+                background-color: #fff;
+                border-radius:5px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 5px;
+                font-size: 60px;
+                   word-break:break-all;
+            }
+            .location{
+                position: absolute;
+                top: 58px;
+                right: 0px;
+                width:0;
+                height:0;
+                border: 10px solid;
+                border-color:transparent transparent transparent #fff;
+            }
+        }
+    }
+}
+.blankline{
+    height: 160px;
+    width: 100%;
+    float: left;
+}

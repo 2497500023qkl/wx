@@ -1,0 +1,144 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+body {
+  background-color: #ececec; }
+
+.chatblock {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-top: 10px;
+  display: flex; }
+  .chatblock img {
+    width: 80px;
+    height: 80px;
+    margin: 20px; }
+  .chatblock div {
+    flex-grow: 1; }
+    .chatblock div .inputbox {
+      width: 100%;
+      margin-top: 30px;
+      height: 55px;
+      font-size: 40px; }
+
+.topfoor {
+  position: fixed;
+  width: 100%;
+  font-size: 60px;
+  line-height: 140px;
+  height: 160px;
+  top: 0px;
+  background-color: #f7f7f7; }
+  .topfoor .arrow2 {
+    float: left;
+    width: 80px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 10px; }
+  .topfoor .more {
+    float: right;
+    width: 80px;
+    margin-top: 70px;
+    margin-right: 10px; }
+  .topfoor .text {
+    float: left;
+    margin-top: 40px; }
+
+.newsblock {
+  background-color: #ececec;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column; }
+  .newsblock .date {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ada5a5; }
+  .newsblock .news {
+    width: 100%;
+    margin-bottom: 10px; }
+    .newsblock .news .headportrait {
+      float: left;
+      margin-left: 40px; }
+      .newsblock .news .headportrait img {
+        width: 80px;
+        height: 80px; }
+    .newsblock .news .chatcontent {
+      max-width: calc(100%  -  240px);
+      padding-left: 20px;
+      position: relative;
+      margin-top: 5px; }
+      .newsblock .news .chatcontent .username {
+        margin-bottom: 15px;
+        font-size: 40px; }
+      .newsblock .news .chatcontent .information {
+        float: left;
+        width: auto;
+        padding-top: 10px;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+        background-color: #fff;
+        font-size: 60px;
+        word-break: break-all; }
+      .newsblock .news .chatcontent .location {
+        position: absolute;
+        top: 68px;
+        left: 0px;
+        width: 0;
+        height: 0;
+        border: 10px solid;
+        border-color: transparent #fff transparent transparent; }
+  .newsblock .news1 {
+    width: 100%;
+    margin-bottom: 10px; }
+    .newsblock .news1 .headportrait {
+      float: right;
+      margin-right: 40px; }
+      .newsblock .news1 .headportrait img {
+        width: 80px;
+        height: 80px; }
+    .newsblock .news1 .chatcontent {
+      float: right;
+      max-width: calc(100%  -  240px);
+      padding-right: 20px;
+      position: relative;
+      margin-top: 5px;
+      min-width: 10px; }
+      .newsblock .news1 .chatcontent .username {
+        text-align: right;
+        margin-bottom: 5px;
+        width: 100%;
+        font-size: 40px; }
+      .newsblock .news1 .chatcontent .information {
+        display: inline-block;
+        border: 1px solid #fff;
+        padding-top: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 5px;
+        font-size: 60px;
+        word-break: break-all; }
+      .newsblock .news1 .chatcontent .location {
+        position: absolute;
+        top: 58px;
+        right: 0px;
+        width: 0;
+        height: 0;
+        border: 10px solid;
+        border-color: transparent transparent transparent #fff; }
+
+.blankline {
+  height: 160px;
+  width: 100%;
+  float: left; }
+
+/*# sourceMappingURL=chatroom.css.map */
